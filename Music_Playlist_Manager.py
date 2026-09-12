@@ -1,8 +1,3 @@
-# ==========================================
-# PART II - MUSIC PLAYLIST MANAGER
-# Singly Linked List ADT
-# ==========================================
-
 
 # Song class
 class Song:
@@ -147,11 +142,6 @@ class LinkedList:
     # Display playlist size
     def size(self):
         return self.count
-
-
-# ==========================================
-# MAIN PROGRAM - PART II
-# ==========================================
 
 def music_playlist_manager():
     playlist = LinkedList()

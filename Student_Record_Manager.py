@@ -1,7 +1,3 @@
-# ==========================================
-# PART I - STUDENT RECORD MANAGER
-# Dynamic Array ADT
-# ==========================================
 
 # Student class
 class Student:
@@ -10,7 +6,6 @@ class Student:
         self.student_name = student_name
         self.course = course
         self.year_level = year_level
-
 
 # Dynamic Array class
 class DynamicArray:
@@ -102,12 +97,7 @@ class DynamicArray:
     def display_info(self):
         print("\n========== ARRAY INFORMATION ==========")
         print("Number of Students:", self.size)
-        print("Array Capacity:", self.capacity)
-
-
-# ==========================================
-# MAIN PROGRAM - PART I
-# ==========================================
+        print("Array Capacity:", self.capacity) 
 
 def student_record_manager():
     students = DynamicArray()
